@@ -1,0 +1,48 @@
+    /* Button styles */
+    #toggleFormButton {
+      margin: 20px;
+      margin-left: 45%;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+  }
+
+  /* Hover animation */
+  #toggleFormButton:hover {
+      background-color: #555;
+      transform: scale(1.05); /* Increase button size on hover */
+  }
+  /* Adjust the styling of the content container */
+  #contentContainer {
+      position: relative; /* Set relative positioning */
+      padding-bottom: 100px; /* Adjust this value to control the space below the table */
+  }
+
+  /* Style the table */
+  #contentContainer table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ccc;
+  }
+
+  /* Style table rows and cells */
+  #contentContainer table tr {
+      border-bottom: 1px solid #ccc;
+  }
+
+  /* Style table header */
+  #contentContainer table th {
+      background-color: #f0f0f0;
+      padding: 8px;
+      text-align: left;
+  }
+
+  /* Style table data cells */
+  #contentContainer table td {
+      padding: 8px;
+  }
+  
